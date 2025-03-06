@@ -16,3 +16,5 @@ chromadb
 langchain-community
 sentence-transformers
 langchain-huggingface
+langchain-groq
+litellm

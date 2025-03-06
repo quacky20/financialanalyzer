@@ -53,7 +53,7 @@ def extract_text_and_match_terms(pdf_path, output_dir="data/raw_reports"):
     else:
         print("No matching financial terms found in the PDF.")
 
-def extract_tables(pdf_path, output_dir="."):
+def extract_tables(pdf_path, output_dir="data/raw_reports"):
     os.makedirs(output_dir, exist_ok=True)
     table_file_path = os.path.join(output_dir, "table.csv")
     
